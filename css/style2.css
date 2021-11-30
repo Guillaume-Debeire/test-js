@@ -1,0 +1,65 @@
+.card-list {
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    height: 100%;
+}
+
+.card {
+    margin: 2rem auto;
+    width: 250px;
+    border-radius: 10px;
+    transition: all .5s;
+    background-color: white;
+    height: 100%;
+}
+
+
+
+.card:hover {
+    box-shadow: 1px 1px 3px 3px rgb(182, 182, 182);
+    transition: all .1s;
+    transform: scale(120%);
+}
+
+.card-top {
+    width: inherit;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-top-title {
+    position: absolute;
+    color: white;
+    bottom: 0;
+}
+
+.card-bottom {
+    padding: 0.5rem;
+}
+
+.card-bottom-title {
+    font-size: 20px;
+    text-align: center;
+    margin: 1rem;
+}
+
+.button-big {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background: transparent;
+    color: white;
+    border-radius: 3px;
+    transition: all .2s;
+    font-size: 15px;
+}
+.button-big:hover {
+    background-color: rgba(207, 207, 207, 0.363);
+}
